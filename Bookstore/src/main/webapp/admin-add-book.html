@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="css/admin-add-book.css">
+	<title>ADMIN - Ajouter un livre</title>
+</head>
+<body>
+	<h1>Bookstore</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li>Catalogue</li>
+			<li>Mon panier <span id="cart-count">0</span></li>
+			<li><a href="admin-add-book.html">Administration</a></li>
+		</ul>
+	</nav>
+	
+	<h2>Ajouter un livre à la base de données</h2>
+	
+	<form action="BookServletJSP" method="post" id="add-book-form" enctype="multipart/form-data">
+		
+		<div class="form-group">
+			<label for="title">Titre : </label>
+			<input type="text" name="title" />
+		</div>
+		<div class="form-group">
+			<label for="author">Auteur : </label>
+			<input type="text" name="author" />
+		</div>
+		<div class="form-group">	
+			<label for="price">Prix : </label>
+			<input type="number" name="price" />
+		</div>
+		<div class="form-group">
+			<label for="genre">Genre : </label>
+			<input type="text" name="genre" />
+		</div>
+		<div class="form-group">
+			<label for="publish_date">Date de première publication : </label>
+			<input type="date" name="publish_date" />
+		</div>
+		<div class="form-group">
+			<label for="cover">Première de couverture : </label>
+			<input type="file" name="cover" />
+		</div>
+		<div class="form-group">
+			<label for="description">Description</label>
+			<textarea name="description" cols="60" rows="10"></textarea> 
+		</div>
+		
+
+		<input type="submit" value="Ajouter">
+	</form>
+	
+</body>
+</html>
