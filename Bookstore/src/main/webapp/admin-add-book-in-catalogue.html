@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="ISO-8859-1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/global.css">	
 	<link rel="stylesheet" href="css/admin-add-book.css">
 	<title>ADMIN - Ajouter un livre</title>
 </head>
@@ -10,15 +11,16 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Accueil</a></li>
-			<li>Catalogue</li>
-			<li>Mon panier <span id="cart-count">0</span></li>
-			<li><a href="admin-add-book.html">Administration</a></li>
+			<li><a href="catalog.html">Catalogue</a></li>
+			<li><a href="cart.html">Mon panier <span id="cart-count">0</span></a></li>
+			<li><a href="admin.html">Administration</a></li>
 		</ul>
 	</nav>
 	
-	<h2>Ajouter un livre à la base de données</h2>
+	<h2>Administration</h2>
+	<h3>Ajouter un livre au catalogue</h3>
 	
-	<form action="BookServletJSP" method="post" id="add-book-form" enctype="multipart/form-data">
+	<form action="NewBookInCatalogueServletJSP" method="post" id="add-book-form" enctype="multipart/form-data">
 		
 		<div class="form-group">
 			<label for="title">Titre : </label>
@@ -37,12 +39,12 @@
 			<input type="text" name="genre" />
 		</div>
 		<div class="form-group">
-			<label for="publish_date">Date de première publication : </label>
+			<label for="publish_date">Date de premiÃ¨re publication : </label>
 			<input type="date" name="publish_date" />
 		</div>
 		<div class="form-group">
-			<label for="cover">Première de couverture : </label>
-			<input type="file" name="cover" />
+			<label for="imageFile">PremiÃ¨re de couverture : </label>
+			<input type="file" name="imageFile" />
 		</div>
 		<div class="form-group">
 			<label for="description">Description</label>

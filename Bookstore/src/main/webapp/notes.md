@@ -1,0 +1,9 @@
+- Gérer les champs TextArea d'un formulaire avec Java Servlet <https://www.codeproject.com/Questions/5249387/Textarea-field-in-jsp-to-servlet-not-working>
+- Gérer une base de données XML avec Java Servlet <https://www.tutorialspoint.com/jsp/jsp_xml_data.htm>
+- Résoudre l'erreur *java.lang.NoClassDefFoundError: javax/servlet/jsp/tagext/TagLibraryValidator* <https://openclassrooms.com/forum/sujet/probleme-avec-la-configuration-de-la-jstl>
+- Documentation de taglibs-standard (JSTL) <https://downloads.apache.org/tomcat/taglibs/taglibs-standard-1.2.5/README_bin.txt>
+- Générer un web.xml manquant dans le dossier WEB-INF <https://crunchify.com/eclipse-missing-web-xml-file-how-can-i-create-web-xml-in-eclipse/>
+- Utiliser JDOM pour manipuler les éléments du fichier XML qui sert de base de données (catalogue de livres) : 
+		- [Topic sur forum](https://community.oracle.com/tech/developers/discussion/1639868/add-new-record-in-xml-file-through-jsp)
+		- [Astuce pour ajouter des éléments](http://www.java2s.com/Code/Java/XML/Addelementstorootelement.htm)		
+		- [Documentation officielle de JDOM](http://www.jdom.org/downloads/docs.html)
